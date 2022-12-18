@@ -27,6 +27,7 @@ namespace RomanizationTests.KoreanTests
 			Assert.AreEqual("japyeo",   _system.Process("잡혀"));
 			Assert.AreEqual("nachi",    _system.Process("낳지"));
 			Assert.AreEqual("",         _system.Process(""));
+			Assert.AreEqual("eomneun-geol",         _system.Process("없는걸"));
 		}
 
 		/// <summary>

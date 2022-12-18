@@ -146,6 +146,7 @@ namespace Romanization
 				HangeulConsonantFinalRomanizations['ㅌ'] = "t";
 				HangeulConsonantFinalRomanizations['ㅍ'] = "p";
 				HangeulConsonantFinalRomanizations['ㅎ'] = "t";
+				HangeulConsonantFinalRomanizations['ㅄ'] = "p"; // Kinda wrong but fixes an exception
 
 				// Special cases of combinations of an ending from one block and the beginning of a new one
 				HangeulConsonantCombinationRomanizations[('ㄱ', 'ㅇ')] = "g";
